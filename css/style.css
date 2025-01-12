@@ -1,4 +1,10 @@
 /* Common start*/
+::placeholder{
+  color: #0E0E0E4D;
+}
+.text-align {
+  text-align: center;
+}
 body {
   background-color: #f1f1f3;
 }
@@ -23,7 +29,8 @@ h4 {
   font-style: normal;
 }
 header,
-main {
+main,
+footer {
   margin: 0 160px 0 160px;
 }
 
@@ -153,9 +160,6 @@ main {
 /* satelite section end */
 
 /* donate section start */
-.donate-section {
-  text-align: center;
-}
 .donate-heading {
   margin-top: 80px;
   font-size: 40px;
@@ -184,7 +188,7 @@ main {
 .diff-color {
   background: #c6e4d6;
 }
-input {
+.donate-input {
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
   font-size: 20px;
@@ -192,7 +196,6 @@ input {
   color: #0e0e0e4d;
   margin-top: 32px;
   background: #fff;
-  text-align: center;
   width: 900px;
   padding: 20px 40px;
 }
@@ -207,3 +210,38 @@ input {
   background: #006a50;
 }
 /* donate section end */
+
+/* footer section start */
+.newsletter {
+}
+footer {
+  padding: 80px 40px;
+  justify-items: center;
+  align-content: center;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+.newsletter-heading {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.newsletter-input {
+  border: none;
+  width: 600px;
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0 24px 0;
+}
+.subscribe-btn {
+  padding: 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+/* footer section end */
